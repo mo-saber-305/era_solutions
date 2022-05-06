@@ -1,0 +1,204 @@
+body, html {
+    text-transform: capitalize;
+    min-height: 3000px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*start top header*/
+.top-header {
+    background-color: #ffffff;
+    padding-block: 7px;
+}
+
+.top-header .logo img {
+    height: 50px;
+}
+
+.top-header .contact .box .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.top-header .contact .box .title svg {
+    color: #e05623;
+}
+
+.top-header .contact .box p {
+    color: #747372;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*X-Small devices*/
+@media (max-width: 575.98px) {
+    .top-header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .top-header .contact .box:first-of-type {
+        margin-bottom: 10px;
+    }
+}
+
+/*Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .top-header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .top-header .contact .box:first-of-type {
+        margin-bottom: 10px;
+    }
+}
+
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top-header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+/*Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*X-Large devices*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
+/*end top header*/
+
+/***********************************************************************************************************/
+
+/*start header*/
+.header {
+    background-color: #2e6666;
+    /*color: #E05623;*/
+    padding-block: 20px;
+}
+
+
+.header ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.header ul li {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.header ul li a {
+    color: #e05623;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #ffffff;
+}
+
+/*end header*/
+
+/***********************************************************************************************************/
+
+/*start info slider*/
+.info-slider .carousel .carousel-indicators button[data-bs-target] {
+    background-color: #e05623;
+    opacity: 1;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-inline: 7px;
+}
+
+.info-slider .carousel .carousel-indicators button[data-bs-target].active {
+    background-color: #ffffff;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item > img {
+    height: 500px;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    padding: 20px;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item .carousel-caption .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #2e6666;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content h2 {
+    color: #e05623;
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content .actions .slide-button {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #e05623;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption {
+    height: fit-content !important;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content {
+    width: 250px;
+    height: 250px;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content img {
+    width: 250px;
+}
+
+/*end info slider*/
+
