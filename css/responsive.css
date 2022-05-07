@@ -1,0 +1,128 @@
+/*X-Small devices*/
+@media (max-width: 575.98px) {
+    /*start top header*/
+    .top-header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .top-header .contact .box:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    /*end top header*/
+    /***********************************************************************************************************/
+    /*start info slider*/
+    .info-slider .carousel .carousel-inner .carousel-item > img {
+        height: 400px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+        width: 90%;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content h2 {
+        font-size: 25px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content p {
+        font-size: 15px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content .actions .slide-button {
+        padding: 7px 20px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content img {
+        width: 100%;
+    }
+
+    /*end info slider*/
+}
+
+/***********************************************************************************************************/
+
+/*Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*start top header*/
+    .top-header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .top-header .contact .box:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    /*end top header*/
+    /***********************************************************************************************************/
+    /*start info slider*/
+    .info-slider .carousel .carousel-inner .carousel-item > img {
+        height: 400px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content h2 {
+        font-size: 35px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content img {
+        width: 100%;
+    }
+
+    /*end info slider*/
+}
+
+/***********************************************************************************************************/
+
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*start top header*/
+    .top-header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /*end top header*/
+    /***********************************************************************************************************/
+    /*start info slider*/
+    .info-slider .carousel .carousel-inner .carousel-item > img {
+        height: 400px;
+    }
+
+    .info-slider .carousel .carousel-inner .carousel-item .carousel-caption .content h2 {
+        font-size: 35px;
+    }
+
+    /*end info slider*/
+}
+
+/***********************************************************************************************************/
+
+/*Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/***********************************************************************************************************/
+
+/*X-Large devices*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/***********************************************************************************************************/
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}

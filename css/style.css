@@ -1,6 +1,7 @@
 body, html {
     text-transform: capitalize;
-    min-height: 3000px;
+    min-height: 7000px;
+    color: #ffffff;
 }
 
 img {
@@ -32,53 +33,6 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
-}
-
-/*X-Small devices*/
-@media (max-width: 575.98px) {
-    .top-header .logo {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .top-header .contact .box:first-of-type {
-        margin-bottom: 10px;
-    }
-}
-
-/*Small devices*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .top-header .logo {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .top-header .contact .box:first-of-type {
-        margin-bottom: 10px;
-    }
-}
-
-/*Medium devices*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .top-header .logo {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-}
-
-/*Large devices*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-/*X-Large devices*/
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-
-}
-
-/*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {
-
 }
 
 /*end top header*/
@@ -141,7 +95,7 @@ img {
 }
 
 .info-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    width: 40%;
+    width: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -197,8 +151,427 @@ img {
 }
 
 .info-slider .carousel .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .content img {
-    width: 250px;
+    width: 100%;
 }
 
 /*end info slider*/
 
+/***********************************************************************************************************/
+
+/*start about us*/
+.about-us {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.about-us .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.about-us .box {
+    position: relative;
+    z-index: 1;
+}
+
+.about-us .box .title {
+    font-size: 40px;
+    text-align: center;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-bottom: 50px;
+}
+
+.about-us .box .content .details {
+    color: #ffffff;
+    width: 60%;
+    margin-inline: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about-us .box .content .details p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.about-us .box .content .details p span {
+    position: absolute;
+    top: -46px;
+    left: -36px;
+    color: #e05623;
+    font-size: 90px;
+    z-index: -1;
+    opacity: 0.8;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.about-us .box .content .text {
+    width: 500px;
+    margin-left: auto;
+}
+
+.about-us .box .content .text h2 {
+    color: #e05623;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    display: inline;
+}
+
+.about-us .box .content .text p {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+/*end about us*/
+
+/***********************************************************************************************************/
+
+/*start our vision*/
+.our-vision {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.our-vision > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.our-vision .box {
+    position: relative;
+    z-index: 1;
+}
+
+.our-vision .box .title {
+    font-size: 40px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.our-vision .box .content .text {
+    color: #ffffff;
+    width: 60%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-vision .box .content .text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.our-vision .box .content .text p span {
+    position: absolute;
+    top: -46px;
+    left: -36px;
+    color: #e05623;
+    font-size: 90px;
+    z-index: -1;
+    opacity: 0.6;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.our-vision .box .content .details .left-section {
+    position: relative;
+}
+
+.our-vision .box .content .details .left-section .image {
+    width: 400px;
+    height: 300px;
+}
+
+.our-vision .box .content .details .left-section .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.our-vision .box .content .details .left-section .overlay {
+    width: 400px;
+    height: 300px;
+    background-color: #e05623;
+    position: absolute;
+    top: 35px;
+    left: -27px;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.our-vision .box .content .details .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-vision .box .content .details .right-section p {
+    margin-bottom: 0;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/*end our vision*/
+
+/***********************************************************************************************************/
+
+/*start our vision2*/
+.our-vision2 {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.our-vision2 > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.our-vision2 .box {
+    position: relative;
+    z-index: 1;
+}
+
+.our-vision2 .box .content .text {
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-vision2 .box .content .text h2 {
+    font-size: 40px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+
+.our-vision2 .box .content .text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.our-vision2 .box .content .text p span {
+    position: absolute;
+    top: -15px;
+    left: -30px;
+    color: #e05623;
+    font-size: 90px;
+    z-index: -1;
+    opacity: 0.6;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.our-vision2 .box .content .details {
+    position: relative;
+}
+
+.our-vision2 .box .content .details .image {
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+}
+
+.our-vision2 .box .content .details .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.our-vision2 .box .content .details .overlay {
+    width: 400px;
+    height: 350px;
+    background-color: #e05623;
+    position: absolute;
+    top: 35px;
+    right: -27px;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+/*end our vision2*/
+
+/***********************************************************************************************************/
+
+/*start cuty*/
+.cuty {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.cuty > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.cuty .box {
+    position: relative;
+    z-index: 1;
+}
+
+.cuty .box .heading {
+    font-size: 50px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.cuty .box .content .section {
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.cuty .box .content .section .title {
+    font-size: 40px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-bottom: 0;
+}
+
+
+.cuty .box .content .section .text {
+    line-height: 1.8;
+    margin-bottom: 0;
+    margin-left: 35px;
+}
+
+.cuty .box .content .section .letter {
+    color: #e05623;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 100px;
+    float: left;
+    opacity: 0.6;
+    line-height: 0.9;
+    margin-right: 14px;
+}
+
+.cuty .box .content .section:first-of-type {
+    margin-left: auto;
+}
+
+.cuty .box .content .section:last-of-type {
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+/*end cuty*/
+
+/***********************************************************************************************************/
+
+/*start footer*/
+footer {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-top: 30px;
+}
+
+footer > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+footer .section {
+    position: relative;
+    z-index: 1;
+}
+
+
+footer .section .top {
+    min-height: 500px;
+}
+
+footer .section .top .box .title {
+    color: #e05623;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+}
+
+footer .section .top .box ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .section .top .box ul li {
+    font-size: 20px;
+}
+
+footer .section .top .box ul li svg {
+    margin-right: 10px;
+    color: #e05623;
+}
+
+footer .section .bottom {
+    background-color: #e05623;
+    padding: 15px;
+    text-align: center;
+}
+
+/*end footer*/
