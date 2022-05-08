@@ -43,10 +43,271 @@
     }
 
     /*end info slider*/
+    /***********************************************************************************************************/
+    /*start about us*/
+    .about-us {
+        padding-block: 50px;
+    }
+
+    .about-us .box .content .details {
+        width: 90%;
+    }
+
+    .about-us .box .content .details p span {
+        top: -45px;
+        left: -24px;
+        font-size: 75px;
+    }
+
+    .about-us .box .content .text {
+        width: 100%;
+    }
+
+    .about-us .box .content .text h2 {
+        font-size: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    .about-us .box .content .text p {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /*end about us*/
+    /***********************************************************************************************************/
+    /*start our vision*/
+    .our-vision {
+        padding-block: 50px;
+    }
+
+    .our-vision .box .content .text h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .our-vision .box .content .text {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .our-vision .box .content .text p {
+        text-align: center;
+    }
+
+    .our-vision .box .content .text p span {
+        top: -37px;
+        left: -13px;
+        font-size: 70px;
+    }
+
+    .our-vision .box .content .details .left-section {
+        width: auto;
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+    .our-vision .box .content .details .left-section .image {
+        width: 230px;
+        height: 230px;
+        margin-inline: auto;
+    }
+
+    .our-vision .box .content .details .left-section .overlay {
+        width: 230px;
+        height: 230px;
+        top: 25px;
+        left: -15px;
+    }
+
+    .our-vision .box .content .details .right-section p {
+        text-align: center;
+    }
+
+    /*end our vision*/
+    /***********************************************************************************************************/
+    /*start our vision2*/
+    .our-vision2 {
+        padding-block: 50px;
+    }
+
+    .our-vision2 .box .content .text h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .our-vision2 .box .content .text {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .our-vision2 .box .content .text p {
+        text-align: center;
+    }
+
+    .our-vision2 .box .content .text p span {
+        top: 0;
+        left: -13px;
+        font-size: 70px;
+    }
+
+
+    .our-vision2 .box .content .details {
+        width: auto;
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+    .our-vision2 .box .content .details .image {
+        width: 230px;
+        height: 230px;
+        margin-inline: auto;
+    }
+
+    .our-vision2 .box .content .details .overlay {
+        width: 230px;
+        height: 230px;
+        top: 25px;
+        left: -15px;
+    }
+
+
+    /*end our vision2*/
+    /***********************************************************************************************************/
+    /*start cuty*/
+    .cuty {
+        padding-block: 50px;
+    }
+
+    .cuty .box .heading {
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .cuty .box .content .section .title {
+        font-size: 30px;
+    }
+
+    .cuty .box .content .section .text {
+        line-height: 1.7;
+        margin-left: 0;
+    }
+
+    .cuty .box .content .section .letter {
+        font-size: 65px;
+    }
+
+    /*end cuty*/
+    /***********************************************************************************************************/
+    /*start our team*/
+    .our-team {
+        padding-block: 50px;
+    }
+
+    .our-team .box .our-team-carousel .slick-next {
+        right: -7px;
+    }
+
+    .our-team .box .our-team-carousel .slick-prev {
+        left: -7px;
+    }
+
+    /*start our team*/
+    /***********************************************************************************************************/
+    /*start cards*/
+    .cards {
+        padding-block: 50px;
+    }
+
+    .cards .flip-card {
+        margin-bottom: 30px;
+    }
+
+    /*start cards*/
+    /***********************************************************************************************************/
+    /*start partners*/
+    .partners {
+        padding-block: 50px;
+    }
+
+    .partners .box .title {
+        font-size: 40px;
+    }
+
+    .partners .box .text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .partners .box .text p span {
+        top: -35px;
+        left: -15px;
+        font-size: 65px;
+    }
+
+    .partners .box .partners-carousel .slick-prev {
+        left: -7px;
+    }
+
+    .partners .box .partners-carousel .slick-next {
+        right: -7px;
+    }
+
+    /*start partners*/
+    /***********************************************************************************************************/
+    /*start contact-us*/
+    .contact-us {
+        padding-block: 50px;
+    }
+
+    .contact-us .map-section #map {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us .contact-section .title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contact-us .contact-section .details {
+        text-align: center;
+    }
+
+    /*end contact-us*/
+    /***********************************************************************************************************/
+    /*start logo-section*/
+    .logo-section .logo {
+        margin-block: 10px;
+    }
+
+    /*end logo-section*/
+    /***********************************************************************************************************/
+    /*start footer*/
+    footer .section .top .box .title {
+        text-align: center;
+    }
+
+    footer .section .top .box p {
+        text-align: center;
+    }
+
+    footer .section .top .box ul {
+        width: fit-content;
+        margin: auto;
+    }
+
+    footer .section .top .box:last-of-type ul:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    /*end footer*/
 }
 
-/***********************************************************************************************************/
 
+/***********************************************************************************************************/
 /*Small devices*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     /*start top header*/
@@ -80,10 +341,221 @@
     }
 
     /*end info slider*/
+    /***********************************************************************************************************/
+    /*start about us*/
+    .about-us {
+        padding-block: 50px;
+    }
+
+    .about-us .box .content .details {
+        width: 90%;
+    }
+
+    .about-us .box .content .details p span {
+        top: -45px;
+        left: -24px;
+        font-size: 75px;
+    }
+
+    .about-us .box .content .text {
+        width: 100%;
+    }
+
+    .about-us .box .content .text h2 {
+        font-size: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    .about-us .box .content .text p {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /*end about us*/
+    /***********************************************************************************************************/
+    /*start our vision*/
+    .our-vision {
+        padding-block: 50px;
+    }
+
+    .our-vision .box .content .text {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .our-vision .box .content .text p span {
+        top: -37px;
+        left: -35px;
+        font-size: 70px;
+    }
+
+    .our-vision .box .content .details .left-section {
+        width: auto;
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+    .our-vision .box .content .details .left-section .image {
+        width: 300px;
+        height: 300px;
+        margin-inline: auto;
+    }
+
+    .our-vision .box .content .details .left-section .overlay {
+        width: 300px;
+        height: 300px;
+        top: 25px;
+        left: -15px;
+    }
+
+    .our-vision .box .content .details .right-section p {
+        text-align: center;
+    }
+
+    /*end our vision*/
+    /***********************************************************************************************************/
+    /*start our vision2*/
+    .our-vision2 {
+        padding-block: 50px;
+    }
+
+    .our-vision2 .box .content .text p {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .our-vision2 .box .content .text p span {
+        top: 0;
+        left: 13px;
+        font-size: 70px;
+    }
+
+
+    .our-vision2 .box .content .details {
+        width: auto;
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+    .our-vision2 .box .content .details .image {
+        width: 300px;
+        height: 300px;
+        margin-inline: auto;
+    }
+
+    .our-vision2 .box .content .details .overlay {
+        width: 300px;
+        height: 300px;
+        top: 25px;
+        left: -15px;
+    }
+
+    /*end our vision2*/
+    /***********************************************************************************************************/
+    /*start cuty*/
+    .cuty {
+        padding-block: 50px;
+    }
+
+    .cuty .box .heading {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    /*end cuty*/
+    /***********************************************************************************************************/
+    /*start our team*/
+    .our-team {
+        padding-block: 50px;
+    }
+
+    .our-team .box .our-team-carousel .team-card .team-card-content .name {
+        font-size: 25px;
+    }
+
+    .our-team .box .our-team-carousel .team-card .team-card-content .position {
+        font-size: 17px;
+    }
+
+    .our-team .box .our-team-carousel .team-card .team-card-content .email,
+    .our-team .box .our-team-carousel .team-card .team-card-content .phone {
+        font-size: 16px;
+    }
+
+    /*end our team*/
+    /***********************************************************************************************************/
+    /*start cards*/
+    .cards {
+        padding-block: 50px;
+    }
+
+    .cards .flip-card {
+        margin-bottom: 30px;
+        width: 400px;
+        margin-inline: auto;
+    }
+
+    /*end cards*/
+    /***********************************************************************************************************/
+    /*start contact-us*/
+    .contact-us {
+        padding-block: 50px;
+    }
+
+    .contact-us .map-section #map {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us .contact-section .title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contact-us .contact-section .details {
+        text-align: center;
+    }
+
+    .contact-us .contact-section form {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    /*end contact-us*/
+    /***********************************************************************************************************/
+    /*start logo-section*/
+    .logo-section .logo {
+        margin-block: 10px;
+    }
+
+    /*end logo-section*/
+    /***********************************************************************************************************/
+    /*start footer*/
+    footer .section .top .box .title {
+        text-align: center;
+    }
+
+    footer .section .top .box p {
+        text-align: center;
+    }
+
+    footer .section .top .box ul {
+        width: fit-content;
+        margin: auto;
+    }
+
+    footer .section .top .box:last-of-type ul:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    /*end footer*/
 }
 
 /***********************************************************************************************************/
-
 /*Medium devices*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     /*start top header*/
@@ -104,24 +576,205 @@
     }
 
     /*end info slider*/
+    /***********************************************************************************************************/
+    /*start about us*/
+    .about-us .box .content .details {
+        width: 80%;
+    }
+
+    /*end about us*/
+    /***********************************************************************************************************/
+    /*start our vision*/
+    .our-vision {
+        padding-block: 50px;
+    }
+
+    .our-vision .box .content .text {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .our-vision .box .content .text p span {
+        top: -37px;
+        left: -35px;
+        font-size: 70px;
+    }
+
+    .our-vision .box .content .details .left-section {
+        width: auto;
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+    .our-vision .box .content .details .left-section .image {
+        width: 300px;
+        height: 300px;
+        margin-inline: auto;
+    }
+
+    .our-vision .box .content .details .left-section .overlay {
+        width: 300px;
+        height: 300px;
+        top: 25px;
+        left: -15px;
+    }
+
+    .our-vision .box .content .details .right-section p {
+        text-align: center;
+    }
+
+    /*end our vision*/
+    /***********************************************************************************************************/
+    /*start our vision2*/
+    .our-vision2 {
+        padding-block: 50px;
+    }
+
+    .our-vision2 .box .content .text p {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .our-vision2 .box .content .text p span {
+        top: 0;
+        left: 13px;
+        font-size: 70px;
+    }
+
+
+    .our-vision2 .box .content .details {
+        width: auto;
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+    .our-vision2 .box .content .details .image {
+        width: 300px;
+        height: 300px;
+        margin-inline: auto;
+    }
+
+    .our-vision2 .box .content .details .overlay {
+        width: 300px;
+        height: 300px;
+        top: 25px;
+        left: -15px;
+    }
+
+    /*end our vision2*/
+    /***********************************************************************************************************/
+    /*start cuty*/
+    .cuty .box .heading {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /*end cuty*/
+    /***********************************************************************************************************/
+    /*start our team*/
+    .our-team {
+        padding-block: 50px;
+    }
+
+    /*end our team*/
+    /***********************************************************************************************************/
+    /*start cards*/
+    .cards {
+        padding-block: 50px;
+    }
+
+    .cards .flip-card {
+        margin-bottom: 30px;
+    }
+
+    /*end cards*/
+    /***********************************************************************************************************/
+    /*start contact-us*/
+    .contact-us {
+        padding-block: 50px;
+    }
+
+    .contact-us .map-section #map {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us .contact-section .title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contact-us .contact-section .details {
+        text-align: center;
+    }
+
+    /*end contact-us*/
+    /***********************************************************************************************************/
+    /*start footer*/
+    footer .section .top .box:last-of-type ul:last-of-type {
+        justify-content: flex-start;
+    }
+
+    /*end footer*/
 }
 
 /***********************************************************************************************************/
-
 /*Large devices*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /*start our vision*/
+    .our-vision .box .content .details .left-section .image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .our-vision .box .content .details .left-section .overlay {
+        width: 350px;
+        height: 350px;
+        top: 30px;
+        left: -15px;
+    }
+
+    /*end our vision*/
+    /***********************************************************************************************************/
+    /*start our vision2*/
+    .our-vision2 .box .content .details {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .our-vision2 .box .content .details .image {
+        width: 350px;
+        height: 350px;
+        margin-inline: auto;
+    }
+
+    .our-vision2 .box .content .details .overlay {
+        width: 350px;
+        height: 350px;
+        top: 30px;
+        right: -15px;
+    }
+
+    /*end our vision2*/
+    /***********************************************************************************************************/
+    /*start cards*/
+    .cards .flip-card {
+        margin-bottom: 30px;
+        width: 350px;
+        margin-inline: auto;
+    }
+
+    /*start cards*/
 
 }
 
 /***********************************************************************************************************/
-
 /*X-Large devices*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
 }
 
 /***********************************************************************************************************/
-
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
 

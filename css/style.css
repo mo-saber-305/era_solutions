@@ -1,11 +1,11 @@
 body, html {
     text-transform: capitalize;
-    min-height: 7000px;
     color: #ffffff;
 }
 
 img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 /*start top header*/
@@ -22,6 +22,7 @@ img {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
+    color: #000000;
 }
 
 .top-header .contact .box .title svg {
@@ -516,6 +517,395 @@ img {
 
 /***********************************************************************************************************/
 
+/*start our-team*/
+
+.our-team {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.our-team > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.our-team .box {
+    position: relative;
+    z-index: 1;
+}
+
+.our-team .box .title {
+    font-size: 50px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.our-team .box .our-team-carousel .slick-slide {
+    padding-inline: 20px;
+}
+
+.our-team .box .our-team-carousel .team-card .image {
+    height: 200px;
+    width: 200px;
+    margin-inline: auto;
+}
+
+.our-team .box .our-team-carousel .team-card .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.our-team .box .our-team-carousel .team-card .horizontal-line {
+    height: 2px;
+    width: 200px;
+    margin-inline: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-content {
+    text-align: center;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-content .name {
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-content .position {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #e05623;
+    font-weight: 600;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-content .email,
+.our-team .box .our-team-carousel .team-card .team-card-content .phone {
+    color: #b2bbc3;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-links ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-links ul li {
+    padding-inline: 15px;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-links ul li a {
+    background: #e05623;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.our-team .box .our-team-carousel .team-card .team-card-links ul li:hover a {
+    background: #ffffff;
+    color: #e05623;
+}
+
+
+/*end our-team*/
+
+/***********************************************************************************************************/
+
+/*start cards*/
+.cards {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.cards > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.cards .box {
+    position: relative;
+    z-index: 1;
+}
+
+.cards .box .title {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cards .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.cards .flip-card .flip-card-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.cards .flip-card:hover .flip-card-content {
+    transform: rotateY(180deg);
+}
+
+.cards .flip-card .flip-card-image,
+.cards .flip-card .flip-card-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.cards .flip-card .flip-card-image {
+    background-color: #bbb;
+    color: black;
+}
+
+.cards .flip-card .flip-card-image {
+    background-color: #bbb;
+    color: black;
+    border-radius: 20px;
+}
+
+.cards .flip-card .flip-card-image .flip-card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro";
+}
+
+.cards .flip-card .flip-card-image .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #273d3c;
+    opacity: 0.5;
+    border-radius: 19px;
+}
+
+.cards .flip-card .flip-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.cards .flip-card .flip-card-text {
+    background-color: #e05623;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cards .flip-card .flip-card-text p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*end cards*/
+
+/***********************************************************************************************************/
+
+/*start partners*/
+
+.partners {
+    position: relative;
+    background-image: url("../images/carousel1.jpg");
+    background-size: cover;
+    padding-block: 100px;
+}
+
+.partners > .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e6666;
+    opacity: 0.9;
+}
+
+.partners .box {
+    position: relative;
+    z-index: 1;
+}
+
+.partners .box .title {
+    font-size: 50px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.partners .box .text {
+    position: relative;
+    margin-bottom: 85px;
+    width: 60%;
+    margin-inline: auto;
+}
+
+.partners .box .text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.partners .box .text p span {
+    position: absolute;
+    top: -60px;
+    left: -35px;
+    color: #e05623;
+    font-size: 90px;
+    z-index: -1;
+    opacity: 0.6;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.partners .box .partners-carousel .slick-slide {
+    padding-inline: 20px;
+}
+
+
+.partners .box .partners-carousel .slick-slide img {
+    height: 50px;
+    margin-inline: auto;
+}
+
+/*end partners*/
+
+/***********************************************************************************************************/
+
+/*start contact us*/
+.contact-us {
+    padding-block: 100px;
+    background-color: #2e6666;
+}
+
+.contact-us .map-section #map {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-us .contact-section .title {
+    font-size: 40px;
+    color: #e05623;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    margin-bottom: 10px;
+}
+
+.contact-us .contact-section .details {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-us .contact-section form .form-control {
+    background-color: #8e9aa2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding-block: 8px;
+}
+
+.contact-us .contact-section form .form-control::placeholder {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.contact-us .contact-section form .send-request {
+    width: 100%;
+    color: #ffffff;
+    background-color: #e05623;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/*end contact us*/
+
+
+/***********************************************************************************************************/
+
+/*start logo section*/
+.logo-section {
+    margin-block: 10px;
+    border-block: 15px solid #e05623;
+}
+
+.logo-section .logo {
+    width: 250px;
+    margin-block: 35px;
+}
+
+.logo-section .logo img {
+    width: 100%;
+}
+
+/*end logo section*/
+
+/***********************************************************************************************************/
+
 /*start footer*/
 footer {
     position: relative;
@@ -543,7 +933,7 @@ footer .section {
 
 
 footer .section .top {
-    min-height: 500px;
+    min-height: 400px;
 }
 
 footer .section .top .box .title {
@@ -566,6 +956,37 @@ footer .section .top .box ul li {
 footer .section .top .box ul li svg {
     margin-right: 10px;
     color: #e05623;
+}
+
+footer .section .top .box:last-of-type ul:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .section .top .box:last-of-type ul:last-of-type li {
+    margin-right: 25px;
+}
+
+footer .section .top .box:last-of-type ul:last-of-type li:last-of-type {
+    margin-right: 0;
+}
+
+footer .section .top .box:last-of-type ul:last-of-type li a {
+    background-color: #e05623;
+    color: #ffffff;
+    padding: 3px 13px;
+    border-radius: 5px;
+}
+
+footer .section .top .box:last-of-type ul:last-of-type li a:hover {
+    background-color: #ffffff;
+    color: #e05623;
+}
+
+footer .section .top .box:last-of-type ul:last-of-type li a svg {
+    color: unset;
+    margin-right: 0;
 }
 
 footer .section .bottom {
